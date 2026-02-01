@@ -11,7 +11,7 @@ A memory-efficient R pipeline for analyzing massive-scale GWAS summary statistic
 *Figure 2: Genomic inflation factor lambda = 1.035, confirming high statistical integrity.*
 
 ## Key Achievements
-- **Scale**: Processed and harmonized **12.69 million variants** from a cohort of **1.1 million individuals**.
+- **Scale**: Processed and harmonized **12.68 million variants** from a cohort of **1.1 million individuals**.
 - **Robustness**: Achieved a genomic inflation factor ($\lambda_{GC}$) of **1.035**, indicating excellent control for population stratification.
 - **Insights**: Successfully identified and visualized the high-impact **APOE** signal on Chromosome 19.
 
