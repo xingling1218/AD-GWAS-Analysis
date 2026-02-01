@@ -2,6 +2,14 @@
 
 A memory-efficient R pipeline for analyzing massive-scale GWAS summary statistics, specifically applied to the **Wightman et al. (2021)** Alzheimer's Disease dataset.
 
+## Key Findings
+### Manhattan Plot
+![Manhattan Plot](results/AD_Wightman_Manhattan.png)
+*Figure 1: High-impact association signals identified in the APOE region (Chr 19).*
+### Q-Q Plot
+![Q-Q Plot](results/AD_Wightman_QQ.png)
+*Figure 2: Genomic inflation factor $\lambda_{GC} = 1.035$, confirming high statistical integrity.*
+
 ## Key Achievements
 - **Scale**: Processed and harmonized **12.69 million variants** from a cohort of **1.1 million individuals**.
 - **Robustness**: Achieved a genomic inflation factor ($\lambda_{GC}$) of **1.035**, indicating excellent control for population stratification.
