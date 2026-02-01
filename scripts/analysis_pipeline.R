@@ -2,7 +2,7 @@
 # Project: GWAS Visualisation of Alzheimer's Disease (Wightman et al. 2021)
 # Author: Xingling Wan (MSc Statistical Data Science, UoB)
 # Date: 2026-01-25
-# Purpose: Generate Manhattan and Q-Q plots from 12.69M variants while 
+# Purpose: Generate Manhattan and Q-Q plots from 12.68M variants while 
 #          maintaining low memory footprint.
 # ==============================================================================
 
@@ -84,3 +84,7 @@ qq(qq_sample$p,
    cex = 0.5)
 dev.off()
 
+# --- Record environment information ---
+sink("results/session_info.txt")
+sessionInfo()
+sink()
