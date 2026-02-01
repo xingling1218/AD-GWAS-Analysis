@@ -8,7 +8,7 @@ A memory-efficient R pipeline for analyzing massive-scale GWAS summary statistic
 *Figure 1: High-impact association signals identified in the APOE region (Chr 19).*
 ### Q-Q Plot
 ![Q-Q Plot](results/AD_Wightman_QQ.png)
-*Figure 2: Genomic inflation factor $\lambda_{GC} = 1.035$, confirming high statistical integrity.*
+*Figure 2: Genomic inflation factor lambda = 1.035, confirming high statistical integrity.*
 
 ## Key Achievements
 - **Scale**: Processed and harmonized **12.69 million variants** from a cohort of **1.1 million individuals**.
