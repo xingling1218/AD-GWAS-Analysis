@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# --- Project Specific Data Files ---
+data/raw/
+*.txt.gz
+*.tsv.gz
+*.csv
