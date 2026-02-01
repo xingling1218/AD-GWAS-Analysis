@@ -11,5 +11,5 @@ A memory-efficient R pipeline for analyzing massive-scale GWAS summary statistic
 - **Memory Management**: Utilised dynamic reclamation (`rm()` and `gc()`) to process 12M+ rows on personal hardware.
 - **Statistical Viz**: Manhattan and Q-Q plots generated via `qqman` with strategic downsampling for performance.
 
-## 📂 Data Source
+## Data Source
 Analysis based on Wightman et al. (2021), *Nature Genetics* (PMID: 34493870).
